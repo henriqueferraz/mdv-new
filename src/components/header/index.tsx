@@ -4,8 +4,8 @@ import './style.css'
 
 export const Header = () => {
     return (
-        <div className='header mt-6'>
-            <div className=''>
+        <div className='header'>
+            <div className=' mt-6'>
                 <Image
                     src='/images/logo_MDV-novo_bann.png'
                     width={170}
@@ -14,8 +14,8 @@ export const Header = () => {
                 />
             </div>
             <div className='centraliza'>
-                <div className=' text-4xl font-bold'>Pesquisa de Satisfação</div>
-                <p>Para nós, sua opinião é muito importante para ajudar a melhorar nossos serviços.</p>
+                <div className='text-xl font-bold sm:text-4xl'>Pesquisa de Satisfação</div>
+                <p className='text-base sm:text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed lorem ac mi facilisis accumsan vel non mi.</p>
             </div>
         </div>
     )

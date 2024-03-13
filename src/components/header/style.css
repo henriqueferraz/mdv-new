@@ -1,15 +1,8 @@
 .header{
-    position: absolute;
-    top: auto;
-    height: 2.5rem;
-    width: 1224px;
-    padding-bottom: 20px;
-    display: inline-flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .centraliza{
-    width: 100%;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

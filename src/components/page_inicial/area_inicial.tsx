@@ -6,8 +6,8 @@ export const AreaInicial = () => {
         <Card className="w-[350px]">
             <CardHeader>
                 <CardTitle>Pesquisa de satisfação</CardTitle>
-                <CardDescription>Ajude-nos a melhorar nossos serviços, seu olhar é muito importante
-                    para nossas tomadas de decisões!
+                <CardDescription>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam sed lorem ac mi facilisis accumsan vel non mi. Cras pretium efficitur justo quis tincidunt.
                 </CardDescription>
             </CardHeader>
             <CardContent>

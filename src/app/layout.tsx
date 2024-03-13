@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
 import { Inter as FontSans } from "next/font/google"
 import "./globals.css";
 
@@ -25,16 +24,14 @@ export default function RootLayout({
     <html lang="pt-BR" suppressHydrationWarning>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-background font-sans antialiased bg-gradient-to-b from-pink-300 to-pink-200",
           fontSans.variable
         )}>
-        <div className=' container mx-auto h-screen text-xs bg-gradient-to-b from-pink-300 to-pink-200 sm:text-lg'>
+        <div className='min-h-screen'>
           <Header />
-          <div className=' pt-20'>
-            <label></label>
+          <div>
             {children}
           </div>
-          <Footer />
         </div>
       </body>
     </html>
