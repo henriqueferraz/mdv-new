@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+    background-image: linear-gradient(to bottom, #f178ac, rgb(233, 191, 229));
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../app/fonts/roboto-regular.woff2) format('woff2');
+  }
